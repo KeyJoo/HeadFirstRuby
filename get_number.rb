@@ -1,7 +1,7 @@
 # Get My Number
 # Written by : Vladimir Pavlychev
 
-puts "Welcome to 'Get My Number!"
+puts "Welcome to \"Get My Number!\""
 
 # Getting name of player and print welcome.
 print "What's your name? "
@@ -14,20 +14,40 @@ puts "I've got a random number betwenn 1 and 100"
 puts "Can you guess it?"
 target = rand(101)
 
-# Seeking for guesses
+# Track how many guesses the player has made.
 num_guesses = 0
 
-#remaining_guesses = 10 - num_guesses
-#puts remaining_guesses.to_s + " guesses left."
-puts "You've got #{10 - num_guesses} guesses left"
 
+#Track wether the player has guessed correctly.
+guessed_it = false
 
-puts "Make a guess: "
-guess = gets.to_i
+until num_guesses == 7 || guessed_it
 
-puts guess < target 
-puts guess > target
+  puts "You've got #{7 - num_guesses} guesses left."
+  print "Make a guess: "
+  guess = gets.to_i
 
-#sleep 2
-#puts target
+  num_guesses += 1
+
+  # Compare the guess to the target.
+  # Print the appropriate message.
+  if guess < target
+    puts "Oops. Your guess was LOW."
+  
+  elsif guess > target
+    puts "Oops.Your guess was HIGH."
+  
+  elsif guess == target
+    puts "Good job, #{name}!"
+    puts "You guessed my number (#{target}) in #{num_guesses} guesses!"
+    guessed_it = true
+  end
+
+end
+
+# If the player didn't guess in time, show the target number.
+unless guessed_it
+	puts "Sorry your guess is #{7 - num_guesses}"
+  puts "You didn't get my number. (It was #{target})."
+end
 
