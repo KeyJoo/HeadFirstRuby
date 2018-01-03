@@ -6,3 +6,8 @@ desc 'Say - welcome'
 task :default do
 puts "Welcome to repo \"Head First Ruby!\""
 end
+
+desc "Try build"
+task :task_name => [:dependent, :tasks] do
+puts "Try build app"
+end

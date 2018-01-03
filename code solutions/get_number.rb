@@ -1,5 +1,6 @@
 # Get My Number
 # Written by : Vladimir Pavlychev https://github.com/KeyJoo
+# coding: utf-8
 
 def colorize(text, color = "default", bgColor = "default")
     

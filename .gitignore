@@ -1,6 +1,6 @@
 #.gitignore
 # repo: https://github.com/KeyJoo/HeadFirstRuby
-
+# coding: utf-8
 
 # Ignore all logfiles and tempfiles.
 /log/*

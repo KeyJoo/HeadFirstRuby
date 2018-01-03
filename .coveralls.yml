@@ -1,5 +1,6 @@
 # .coveralls.yml
 # repo: https://github.com/KeyJoo/HeadFirstRuby
+# coding: utf-8
 
 service_name: travis-pro
 repo_token: Klut1Nv5mnkIy8ZEu8j5vvPjiCJnL98LG
