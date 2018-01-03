@@ -10,6 +10,11 @@ Ruby Head First
 Читаем, учимся и выполняем: какможно больше практики!
 
 
+Code status
+---------------
+[![Coverage Status](https://coveralls.io/repos/github/KeyJoo/HeadFirstRuby/badge.svg?branch=master)](https://coveralls.io/github/KeyJoo/HeadFirstRuby?branch=master)
+
+
 Содержание.
 ===============
 - 01. [Программируйте так, как вам удобно.](#chapter-01)
