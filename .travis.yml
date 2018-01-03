@@ -1,0 +1,7 @@
+#.travis.yml
+
+language: ruby
+rvm:
+ - 2.4.1
+ - 2.5
+# - jruby
