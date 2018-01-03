@@ -1,9 +1,9 @@
 PROJECT TREE
 ================
 
-.
-├── **code solutions**
-│   ├── code-trust-full.rb
+.\n
+├── **code solutions**\n
+│   ├── code-trust-full.rb\n
 │   └── get_number.rb
 ├── **examples**
 │   ├── conditional_commands.rb
