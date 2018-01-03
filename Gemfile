@@ -6,3 +6,5 @@ git_source(:github) do |repo_name|
 end
 
 gem 'coveralls', require: false
+
+gem 'rake', '~>12.0.0'
