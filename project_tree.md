@@ -1,7 +1,8 @@
 PROJECT TREE
 ================
 
-.\n
+```
+.
 ├── **code solutions**\n
 │   ├── code-trust-full.rb\n
 │   └── get_number.rb
@@ -18,5 +19,6 @@ PROJECT TREE
 ├── README.ru.md
 └── **tests**
     └── spec_helper.rb
+```
 
 3 directories, 13 files
