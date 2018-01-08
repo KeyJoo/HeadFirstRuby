@@ -82,6 +82,33 @@ Code status
 Методы и классы.
 =====================
 
+Пример метода: [greeting.rb](../examples/greeting.rb) возвращение агрументов метода, соранённых в переменной greeting
+	Т.к. возврат аргументов происходит в последней строке метода, то 
+```
+return greeting
+```
+**return** опускается из кода(не обязателен, по соглашению)
+
+```
+def hello_world(first_name="",last_name="")
+	greeting = "Hello world!\n" 
+	
+	unless first_name == "" && last_name ==""
+		greeting += "My name is " + first_name + " " + last_name 
+	end
+	greeting
+end
+```
+
+равносильно
+```
+...
+if first_name != "" && last_name !=""
+...
+```
+
+
+
 
 ------------------------------------------------
 
