@@ -18,7 +18,7 @@ Code status
 Содержание.
 ===============
 
-читаем [тут:](../book/ru/book-content.ru.md) 
+читаем [тут:](/book/ru/book-content.ru.md) 
 
 
 Игра на Ruby - "Отгадай число".
