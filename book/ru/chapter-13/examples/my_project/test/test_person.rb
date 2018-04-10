@@ -12,4 +12,14 @@ class TestPerson < MiniTest::Test
 		person.name = 'Bob'
 		assert(person.introduction == 'Hello, my name is Bob!')
 	end
+
+=begin
+
+	def test_input_age
+		person = Person.new
+		person.age = '24'
+		assert(person.input_age == 'I am 24 years old.')
+	end
+=end
+
 end
