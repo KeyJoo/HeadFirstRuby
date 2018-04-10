@@ -13,3 +13,4 @@ class TestSomething < Minitest::Test
 	def test_false_assertion
 		assert(false)
 	end
+end
