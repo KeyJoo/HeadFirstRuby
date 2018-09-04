@@ -14,4 +14,5 @@ sleep 3
 
 echo ". .. ... .. . "
 
+cd code\ solutions
 ruby get_number.rb 
